@@ -26,7 +26,7 @@ body{
 
 
 .hero{
-   background-image: url(/imagens/imagem-hamburger-cortado.png);
+   background-image: url(/imagens/imagem-hamburger-hero.png);
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -36,7 +36,7 @@ body{
     display: flex;
     align-items: center;
 }
-
+ 
 nav > ul {
     text-align: center;
   
