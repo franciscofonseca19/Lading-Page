@@ -153,12 +153,18 @@ ul > li> a:hover{
     height: 90px;
 }
 
+.material-symbols-outlined{
+    color: #ff7a00;
+    transition: 0.3s ease;
+
+}
+
 
 
 
 
 .material-symbols-outlined:hover {
-    
+    cursor: pointer;
     color: #ffffff;
 }
 
