@@ -201,15 +201,54 @@ ul > li> a:hover{
 }
 
 
-.cardapios{
-    background-color: rgb(34, 33, 33);
+.cardapio{
+   
+    background-color: rgb(35, 34, 34);
     height: 500px;
+   padding-top: 20px;
 }
 
+.nosso{
+    color:#ff7a00;
+    font-size: 15px;
+}
 
+.mais{
+    color: white;
+    font-size: 20px;
+    padding-top: 5px;
+}
 
+.pedidos{
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+.cardapios{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
 
-
-
+.card{
+    border: 1px solid rgba(77, 77, 77, 0.852);
    
+    border-radius: 9px 9px;
+    background-color: black;
+    height: 400px;
+    width: 250px;
+    
+
+}
+   
+.card > img{
+    height: 50%;
+    width: 100%;
+    border: 1px solid rgba(77, 77, 77, 0.852);
+}
+
+h5, p, button{
+    padding: 5px 5px;
+}
