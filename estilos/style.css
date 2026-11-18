@@ -203,7 +203,12 @@ ul > li> a:hover{
 
 .cardapio{
    
-    background-color: rgb(35, 34, 34);
+     background: linear-gradient(
+        180deg,
+        #1a1a1a 0%,
+        #111111 50%,
+        #080808 100%
+    );
     height: 500px;
    padding-top: 20px;
 }
@@ -225,19 +230,17 @@ ul > li> a:hover{
 }
 
 .cardapios{
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-    gap: 20px;
+   display: flex;
+   justify-content: center;
+    gap: 10px;
     margin-top: 20px;
 }
 
 .card{
     border: 1px solid rgba(77, 77, 77, 0.852);
-   
     border-radius: 9px 9px;
     background-color: black;
-    height: 400px;
+    height: 430px;
     width: 250px;
     
 
@@ -246,9 +249,66 @@ ul > li> a:hover{
 .card > img{
     height: 50%;
     width: 100%;
+    border-radius: 5px;
     border: 1px solid rgba(77, 77, 77, 0.852);
 }
 
-h5, p, button{
-    padding: 5px 5px;
+.conteudo-card{
+    padding: 10px;
+}
+.btn-burguer{
+    font-family: 'Bebas Neue', sans-serif;
+   background-color: #ff7a00;
+   margin-top: 32px;
+   padding: 10px;
+   border: none;
+   border-radius: 29px;
+   font-size: 15px;
+   width: 150px;
+   cursor: pointer;
+}
+
+.nome{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 17px; 
+    margin-bottom: 4px;
+
+}
+
+.preco{
+    color: #ff7a00;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.btn-frango{
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #ff7a00;
+   margin-top: 32px;
+   padding: 10px;
+   border: none;
+   border-radius: 29px;
+   font-size: 15px;
+   width: 150px;
+   cursor: pointer;
+}
+
+.btn-turbo{
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #ff7a00;
+   margin-top: 48px;
+   padding: 10px;
+   border: none;
+   border-radius: 29px;
+   font-size: 15px;
+   width: 150px;
+   cursor: pointer;
+}
+
+div> p{
+   
+    font-size: 14px;
+    margin-top: 4px;
+    
 }
